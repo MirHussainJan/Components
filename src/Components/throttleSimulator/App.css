@@ -1,0 +1,39 @@
+.App {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .throttle-container, .speedometer-container {
+    margin: 20px;
+  }
+  
+  #throttle-slider {
+    width: 300px;
+  }
+  
+  .speedometer {
+    width: 300px;
+    height: 150px;
+  }
+  
+  .speedometer-bg {
+    fill: none;
+    stroke: #333;
+    stroke-width: 4;
+  }
+  
+  .speedometer-marks line {
+    stroke: #333;
+    stroke-width: 2;
+  }
+  
+  .needle {
+    stroke: red;
+    stroke-width: 2;
+    transform-origin: 100px 100px;
+  }
+  
+  .speed-label {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }  
